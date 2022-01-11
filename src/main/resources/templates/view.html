@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>View</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <table border="1"> 
+            <tr>
+                <th colspan="2" bgcolor="green">Struk Belanja 
+            </tr>
+            <tr>
+                <td>Nama sayuran</td>
+                <td th:text="${nama}"></td>
+            </tr>
+            <tr>
+                <td>Harga Perkilo</td>
+                <td th:text="${harga}"></td>
+            </tr>
+            <tr>
+                <td>Jumlah Barang</td>
+                <td th:text="${Jmlbeli}"></td>
+            </tr>
+            <tr>
+                <td>Jumlah Bayar</td>
+                <td th:text="${Jmlbayar}"></td>
+            </tr>
+            <tr>
+                <td>Discount</td>
+                <td th:text="${disc}"></td>
+            </tr>
+            <tr>
+                <td>Total</td>
+                <td th:text="${total}"></td>
+            </tr>
+            <tr>
+                <td>Uang Bayar</td>
+                <td th:text="${uang}"></td>
+            </tr> 
+            <tr>
+                <td>Kembalian</td>
+                <td th:text="${kembalian}"></td>
+            </tr>
+            <tr>
+                
+                <th bgcolor="pink">Massage
+                <th bgcolor="pink" th:text="${money}"></td>
+            </tr>
+        </table>
+</body>
+</html>
